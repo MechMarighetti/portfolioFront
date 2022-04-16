@@ -10,6 +10,7 @@ import { AsideComponent } from './components/aside/aside.component';
 import { AboutComponent } from './vista/about/about.component';
 import { AcademicComponent } from './vista/academic/academic.component';
 import { ExperienceComponent } from './vista/experience/experience.component';
+import { UserComponent } from './class/user/user.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ExperienceComponent } from './vista/experience/experience.component';
     AsideComponent,
     AboutComponent,
     AcademicComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
